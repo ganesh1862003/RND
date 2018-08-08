@@ -1,0 +1,14 @@
+C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DesignPatterns\bin\Debug\netcoreapp2.1\DesignPatterns.deps.json
+C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DesignPatterns\bin\Debug\netcoreapp2.1\DesignPatterns.runtimeconfig.json
+C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DesignPatterns\bin\Debug\netcoreapp2.1\DesignPatterns.runtimeconfig.dev.json
+C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DesignPatterns\bin\Debug\netcoreapp2.1\DesignPatterns.dll
+C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DesignPatterns\bin\Debug\netcoreapp2.1\DesignPatterns.pdb
+C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DesignPatterns\bin\Debug\netcoreapp2.1\Singleton.dll
+C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DesignPatterns\bin\Debug\netcoreapp2.1\Singleton.pdb
+C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DesignPatterns\obj\Debug\netcoreapp2.1\DesignPatterns.csprojAssemblyReference.cache
+C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DesignPatterns\obj\Debug\netcoreapp2.1\DesignPatterns.csproj.CoreCompileInputs.cache
+C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DesignPatterns\obj\Debug\netcoreapp2.1\DesignPatterns.AssemblyInfoInputs.cache
+C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DesignPatterns\obj\Debug\netcoreapp2.1\DesignPatterns.AssemblyInfo.cs
+C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DesignPatterns\obj\Debug\netcoreapp2.1\DesignPatterns.csproj.CopyComplete
+C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DesignPatterns\obj\Debug\netcoreapp2.1\DesignPatterns.dll
+C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DesignPatterns\obj\Debug\netcoreapp2.1\DesignPatterns.pdb
