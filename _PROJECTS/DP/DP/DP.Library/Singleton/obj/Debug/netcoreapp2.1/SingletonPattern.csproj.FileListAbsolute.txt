@@ -1,0 +1,9 @@
+C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DP.Library\Singleton\bin\Debug\netcoreapp2.1\SingletonPattern.deps.json
+C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DP.Library\Singleton\bin\Debug\netcoreapp2.1\SingletonPattern.dll
+C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DP.Library\Singleton\bin\Debug\netcoreapp2.1\SingletonPattern.pdb
+C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DP.Library\Singleton\obj\Debug\netcoreapp2.1\SingletonPattern.csprojAssemblyReference.cache
+C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DP.Library\Singleton\obj\Debug\netcoreapp2.1\SingletonPattern.csproj.CoreCompileInputs.cache
+C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DP.Library\Singleton\obj\Debug\netcoreapp2.1\SingletonPattern.AssemblyInfoInputs.cache
+C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DP.Library\Singleton\obj\Debug\netcoreapp2.1\SingletonPattern.AssemblyInfo.cs
+C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DP.Library\Singleton\obj\Debug\netcoreapp2.1\SingletonPattern.dll
+C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DP.Library\Singleton\obj\Debug\netcoreapp2.1\SingletonPattern.pdb

@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DP.Library\Singleton\Singleton.csproj" />
+    <ProjectReference Include="..\DP.Library\Singleton\SingletonPattern.csproj" />
   </ItemGroup>
 
 </Project>

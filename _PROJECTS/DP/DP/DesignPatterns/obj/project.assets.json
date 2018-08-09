@@ -208,14 +208,14 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Singleton/1.0.0": {
+      "SingletonPattern/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "compile": {
-          "bin/placeholder/Singleton.dll": {}
+          "bin/placeholder/SingletonPattern.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Singleton.dll": {}
+          "bin/placeholder/SingletonPattern.dll": {}
         }
       }
     }
@@ -684,16 +684,16 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Singleton/1.0.0": {
+    "SingletonPattern/1.0.0": {
       "type": "project",
-      "path": "../DP.Library/Singleton/Singleton.csproj",
-      "msbuildProject": "../DP.Library/Singleton/Singleton.csproj"
+      "path": "../DP.Library/Singleton/SingletonPattern.csproj",
+      "msbuildProject": "../DP.Library/Singleton/SingletonPattern.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.NETCore.App >= 2.1.0",
-      "Singleton >= 1.0.0"
+      "SingletonPattern >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -726,8 +726,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\_GANESHA\\_SVN\\RND\\_PROJECTS\\DP\\DP\\DP.Library\\Singleton\\Singleton.csproj": {
-              "projectPath": "C:\\_GANESHA\\_SVN\\RND\\_PROJECTS\\DP\\DP\\DP.Library\\Singleton\\Singleton.csproj"
+            "C:\\_GANESHA\\_SVN\\RND\\_PROJECTS\\DP\\DP\\DP.Library\\Singleton\\SingletonPattern.csproj": {
+              "projectPath": "C:\\_GANESHA\\_SVN\\RND\\_PROJECTS\\DP\\DP\\DP.Library\\Singleton\\SingletonPattern.csproj"
             }
           }
         }

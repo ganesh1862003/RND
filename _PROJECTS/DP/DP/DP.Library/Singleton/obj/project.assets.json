@@ -687,9 +687,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\_GANESHA\\_SVN\\RND\\_PROJECTS\\DP\\DP\\DP.Library\\Singleton\\Singleton.csproj",
-      "projectName": "Singleton",
-      "projectPath": "C:\\_GANESHA\\_SVN\\RND\\_PROJECTS\\DP\\DP\\DP.Library\\Singleton\\Singleton.csproj",
+      "projectUniqueName": "C:\\_GANESHA\\_SVN\\RND\\_PROJECTS\\DP\\DP\\DP.Library\\Singleton\\SingletonPattern.csproj",
+      "projectName": "SingletonPattern",
+      "projectPath": "C:\\_GANESHA\\_SVN\\RND\\_PROJECTS\\DP\\DP\\DP.Library\\Singleton\\SingletonPattern.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\_GANESHA\\_SVN\\RND\\_PROJECTS\\DP\\DP\\DP.Library\\Singleton\\obj\\",
       "projectStyle": "PackageReference",
