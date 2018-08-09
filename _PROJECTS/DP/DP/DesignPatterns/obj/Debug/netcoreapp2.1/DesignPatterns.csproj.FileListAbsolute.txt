@@ -12,3 +12,5 @@ C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DesignPatterns\obj\Debug\netcoreapp2.1\Desi
 C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DesignPatterns\obj\Debug\netcoreapp2.1\DesignPatterns.csproj.CopyComplete
 C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DesignPatterns\obj\Debug\netcoreapp2.1\DesignPatterns.dll
 C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DesignPatterns\obj\Debug\netcoreapp2.1\DesignPatterns.pdb
+C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DesignPatterns\bin\Debug\netcoreapp2.1\FactoryPattern.dll
+C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DesignPatterns\bin\Debug\netcoreapp2.1\FactoryPattern.pdb

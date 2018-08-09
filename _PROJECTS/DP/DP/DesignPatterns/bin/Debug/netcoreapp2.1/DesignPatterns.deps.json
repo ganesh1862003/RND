@@ -8,10 +8,16 @@
     ".NETCoreApp,Version=v2.1": {
       "DesignPatterns/1.0.0": {
         "dependencies": {
+          "FactoryPattern": "1.0.0",
           "SingletonPattern": "1.0.0"
         },
         "runtime": {
           "DesignPatterns.dll": {}
+        }
+      },
+      "FactoryPattern/1.0.0": {
+        "runtime": {
+          "FactoryPattern.dll": {}
         }
       },
       "SingletonPattern/1.0.0": {
@@ -23,6 +29,11 @@
   },
   "libraries": {
     "DesignPatterns/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FactoryPattern/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

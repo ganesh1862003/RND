@@ -207,26 +207,6 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
-      },
-      "FactoryPattern/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "compile": {
-          "bin/placeholder/FactoryPattern.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/FactoryPattern.dll": {}
-        }
-      },
-      "SingletonPattern/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "compile": {
-          "bin/placeholder/SingletonPattern.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SingletonPattern.dll": {}
-        }
       }
     }
   },
@@ -693,23 +673,11 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
-    },
-    "FactoryPattern/1.0.0": {
-      "type": "project",
-      "path": "../DP.Library/FactoryPattern/FactoryPattern.csproj",
-      "msbuildProject": "../DP.Library/FactoryPattern/FactoryPattern.csproj"
-    },
-    "SingletonPattern/1.0.0": {
-      "type": "project",
-      "path": "../DP.Library/Singleton/SingletonPattern.csproj",
-      "msbuildProject": "../DP.Library/Singleton/SingletonPattern.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "FactoryPattern >= 1.0.0",
-      "Microsoft.NETCore.App >= 2.1.0",
-      "SingletonPattern >= 1.0.0"
+      "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
   "packageFolders": {
@@ -719,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\_GANESHA\\_SVN\\RND\\_PROJECTS\\DP\\DP\\DesignPatterns\\DesignPatterns.csproj",
-      "projectName": "DesignPatterns",
-      "projectPath": "C:\\_GANESHA\\_SVN\\RND\\_PROJECTS\\DP\\DP\\DesignPatterns\\DesignPatterns.csproj",
+      "projectUniqueName": "C:\\_GANESHA\\_SVN\\RND\\_PROJECTS\\DP\\DP\\DP.Library\\FactoryPattern\\FactoryPattern.csproj",
+      "projectName": "FactoryPattern",
+      "projectPath": "C:\\_GANESHA\\_SVN\\RND\\_PROJECTS\\DP\\DP\\DP.Library\\FactoryPattern\\FactoryPattern.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\_GANESHA\\_SVN\\RND\\_PROJECTS\\DP\\DP\\DesignPatterns\\obj\\",
+      "outputPath": "C:\\_GANESHA\\_SVN\\RND\\_PROJECTS\\DP\\DP\\DP.Library\\FactoryPattern\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -741,14 +709,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {
-            "C:\\_GANESHA\\_SVN\\RND\\_PROJECTS\\DP\\DP\\DP.Library\\FactoryPattern\\FactoryPattern.csproj": {
-              "projectPath": "C:\\_GANESHA\\_SVN\\RND\\_PROJECTS\\DP\\DP\\DP.Library\\FactoryPattern\\FactoryPattern.csproj"
-            },
-            "C:\\_GANESHA\\_SVN\\RND\\_PROJECTS\\DP\\DP\\DP.Library\\Singleton\\SingletonPattern.csproj": {
-              "projectPath": "C:\\_GANESHA\\_SVN\\RND\\_PROJECTS\\DP\\DP\\DP.Library\\Singleton\\SingletonPattern.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -761,6 +722,7 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

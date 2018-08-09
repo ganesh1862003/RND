@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using SingletonPattern;
+using FactoryPattern;
 namespace DesignPatterns
 {
     class Program
@@ -15,7 +16,7 @@ namespace DesignPatterns
             MainLoop:
 
             Console.WriteLine("SELECT THE DESIGN PATTERN .FOR E.G. (1/2/3) : ");
-            strKeyMain  = Console.ReadLine().ToString();
+            strKeyMain = Console.ReadLine().ToString();
             Console.WriteLine(NewLine);
 
             if (Convert.ToInt32(strKeyMain) == 1) //SINGLETONPATTERN
@@ -23,22 +24,22 @@ namespace DesignPatterns
                 ChildLoop:
                 Console.WriteLine("SELECT SINGLETON PATTERN TYPE. FOR E.G. (A/B/C)");
                 strKeyChild = Console.ReadLine().ToString();
-                if(strKeyChild.ToUpper() == "A")
+                if (strKeyChild.ToUpper() == "A")
                 {
                     Console.WriteLine(NewLine);
-                    Console.WriteLine("SINGLETON WITH THREAD SAFE");                    
+                    Console.WriteLine("SINGLETON WITH THREAD SAFE");
                     Parallel.Invoke(() => GetSingletonInstance_1(), () => GetSingletonInstance_2());
                 }
                 else if (strKeyChild.ToUpper() == "B")
                 {
                     Console.WriteLine(NewLine);
-                    Console.WriteLine("SINGLETON WITH EAGER LOADING");                    
+                    Console.WriteLine("SINGLETON WITH EAGER LOADING");
                     Parallel.Invoke(() => GetEagerSingletonInstance_1(), () => GetEagerSingletonInstance_2());
                 }
                 else if (strKeyChild.ToUpper() == "C")
                 {
                     Console.WriteLine(NewLine);
-                    Console.WriteLine("SINGLETON WITH LAZY LOADING");                    
+                    Console.WriteLine("SINGLETON WITH LAZY LOADING");
                     Parallel.Invoke(() => GetLazySingletonInstance_1(), () => GetLazySingletonInstance_2());
                 }
                 else
@@ -47,14 +48,22 @@ namespace DesignPatterns
                 }
 
             }
+            else if (Convert.ToInt32(strKeyMain) == 2) //SIMPLE FACTORY
+            {
+                Console.WriteLine("SIMPLE FACTORY");                
+                Console.WriteLine("SELECT EMPLOYEE TYPE .FOR E.G. (1,2)");
+                strKeyChild = Console.ReadLine().ToString();
 
+                SimpleFactory A = new SimpleFactory();
+                A.GetEmployeeData(Convert.ToInt32(strKeyChild));
+            }
             Console.WriteLine(NewLine);
             Console.WriteLine("WANT TO CONTINUE (Y/N)?");
             if (Console.ReadLine().ToString().ToUpper() == "Y")
             {
                 goto MainLoop;
             }
-            
+
 
 
 
