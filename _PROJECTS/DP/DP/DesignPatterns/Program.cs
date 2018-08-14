@@ -8,66 +8,75 @@ namespace DesignPatterns
     {
         public static string strKeyMain = "";
         public static string strKeyChild = "";
+        public static string strKeyChilds = "";
         public static string NewLine => "\r\n";
         static void Main(string[] args)
         {
-            // 1 : SINGLETON (A : SINGLETON WITH THREAD SAFE , B : EAGER LOADING , LAZY LOADING)
+        
+            // 1 : SINGLETON    (A : SINGLETON WITH THREAD SAFE , B : EAGER LOADING , LAZY LOADING)
+            // 2 : FACTORY      (A : SIMPLE)
 
-            MainLoop:
-
+        MainLoop:
+            Console.WriteLine(NewLine);
             Console.WriteLine("SELECT THE DESIGN PATTERN .FOR E.G. (1/2/3) : ");
             strKeyMain = Console.ReadLine().ToString();
             Console.WriteLine(NewLine);
 
             if (Convert.ToInt32(strKeyMain) == 1) //SINGLETONPATTERN
             {
-                ChildLoop:
+            ChildLoop1:
                 Console.WriteLine("SELECT SINGLETON PATTERN TYPE. FOR E.G. (A/B/C)");
                 strKeyChild = Console.ReadLine().ToString();
                 if (strKeyChild.ToUpper() == "A")
-                {
-                    Console.WriteLine(NewLine);
+                {                    
                     Console.WriteLine("SINGLETON WITH THREAD SAFE");
                     Parallel.Invoke(() => GetSingletonInstance_1(), () => GetSingletonInstance_2());
                 }
                 else if (strKeyChild.ToUpper() == "B")
                 {
-                    Console.WriteLine(NewLine);
                     Console.WriteLine("SINGLETON WITH EAGER LOADING");
                     Parallel.Invoke(() => GetEagerSingletonInstance_1(), () => GetEagerSingletonInstance_2());
                 }
                 else if (strKeyChild.ToUpper() == "C")
                 {
-                    Console.WriteLine(NewLine);
                     Console.WriteLine("SINGLETON WITH LAZY LOADING");
                     Parallel.Invoke(() => GetLazySingletonInstance_1(), () => GetLazySingletonInstance_2());
                 }
                 else
                 {
-                    goto ChildLoop;
+                    goto ChildLoop1;
                 }
 
             }
             else if (Convert.ToInt32(strKeyMain) == 2) //SIMPLE FACTORY
             {
-                Console.WriteLine("SIMPLE FACTORY");                
-                Console.WriteLine("SELECT EMPLOYEE TYPE .FOR E.G. (1,2)");
+                Console.WriteLine("SELECT FACTORY PATTERN TYPE. FOR E.G. (A/B/C)");
                 strKeyChild = Console.ReadLine().ToString();
 
-                SimpleFactory A = new SimpleFactory();
-                A.GetEmployeeData(Convert.ToInt32(strKeyChild));
+            ChildLoop2:                
+                if (strKeyChild.ToUpper() == "A")
+                {                    
+                    Console.WriteLine("SIMPLE FACTORY PATTERN");
+                    Console.WriteLine("SELECT EMPLOYEE TYPE .FOR E.G. (1,2)");
+                    strKeyChilds = Console.ReadLine().ToString();
+                    SimpleFactory A = new SimpleFactory();
+                    A.GetEmployeeData(Convert.ToInt32(strKeyChilds));
+                }
+                else
+                {
+                    goto ChildLoop2;
+                }
             }
+
             Console.WriteLine(NewLine);
             Console.WriteLine("WANT TO CONTINUE (Y/N)?");
             if (Console.ReadLine().ToString().ToUpper() == "Y")
             {
                 goto MainLoop;
             }
-
-
-
-
         }
+
+        #region SINGLETON
         private static void GetSingletonInstance_1()
         {
             Singleton GetSingletonInstance_1 = Singleton.GetSingletonInstance;
@@ -100,5 +109,7 @@ namespace DesignPatterns
             LazySingleton GetLazySingletonInstance_2 = LazySingleton.GetLazySingletonInstance;
             GetLazySingletonInstance_2.PrintDetails("PRINT : GetLazySingletonInstance_2");
         }
+        #endregion
+        
     }
 }
