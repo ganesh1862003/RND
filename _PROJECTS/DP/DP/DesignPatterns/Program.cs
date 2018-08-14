@@ -2,6 +2,8 @@
 using System.Threading.Tasks;
 using SingletonPattern;
 using FactoryPattern;
+using FactoryPattern.Models;
+using FactoryPattern.Factory;
 namespace DesignPatterns
 {
     class Program
@@ -14,7 +16,7 @@ namespace DesignPatterns
         {
         
             // 1 : SINGLETON    (A : SINGLETON WITH THREAD SAFE , B : EAGER LOADING , LAZY LOADING)
-            // 2 : FACTORY      (A : SIMPLE)
+            // 2 : FACTORY      (A : SIMPLE FACTORY, B : FACTORY METHOD)
 
         MainLoop:
             Console.WriteLine(NewLine);
@@ -67,8 +69,11 @@ namespace DesignPatterns
                     Console.WriteLine("FACTORY METHOD PATTERN");
                     Console.WriteLine("SELECT EMPLOYEE TYPE .FOR E.G. (1,2)");
                     strKeyChilds = Console.ReadLine().ToString();
-                    SimpleFactory A = new SimpleFactory();
-                    A.GetEmployeeData(Convert.ToInt32(strKeyChilds));
+                    Employee emp = new Employee();
+                    emp.EmployeeTypeId = Convert.ToInt32(strKeyChilds);
+                    FactoryMethod a = new FactoryMethod();
+                    a.GetEmployeeMethodData(emp);
+
                 }
                 else
                 {

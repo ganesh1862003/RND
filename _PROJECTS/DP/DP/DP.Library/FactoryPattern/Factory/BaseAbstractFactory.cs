@@ -2,10 +2,10 @@
 using FactoryPattern.InterFaces;
 namespace FactoryPattern.Factory
 {
-    public abstract class BaseEmployeeFactory
+    public abstract class BaseAbstractFactory
     {
         protected Employee _emp;
-        public BaseEmployeeFactory(Employee emp) { _emp = emp; }
+        public BaseAbstractFactory(Employee emp) { _emp = emp; }
 
         public Employee ApplySalary()
         {

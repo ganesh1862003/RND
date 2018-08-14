@@ -7,7 +7,7 @@ using FactoryPattern.BusinessLogic;
 
 namespace FactoryPattern.Factory
 {
-    public class PermanentEmployeeFactory : BaseEmployeeFactory
+    public class PermanentEmployeeFactory : BaseAbstractFactory
     {
         public PermanentEmployeeFactory(Employee emp) : base(emp)
         {

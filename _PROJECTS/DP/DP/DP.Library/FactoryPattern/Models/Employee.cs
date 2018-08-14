@@ -12,11 +12,11 @@ namespace FactoryPattern.Models
         private decimal _HouseAllowance;
         private decimal _MedicalAllowance;
 
-        public decimal EmployeeTypeId { get => _EmployeeTypeId; set => EmployeeTypeId = _EmployeeTypeId; }
-        public decimal Bonus { get => _Bonus; set => Bonus = _Bonus; }
-        public decimal Salary { get => _Salary; set => Bonus = _Salary; }
-        public decimal HouseAllowance { get => _HouseAllowance; set => Bonus = _HouseAllowance; }
-        public decimal MedicalAllowance { get => _MedicalAllowance; set => Bonus = _MedicalAllowance; }
+        public int EmployeeTypeId { get => _EmployeeTypeId; set => _EmployeeTypeId = value; }
+        public decimal Bonus { get => _Bonus; set => _Bonus = value; }
+        public decimal Salary { get => _Salary; set => _Salary = value; }
+        public decimal HouseAllowance { get => _HouseAllowance; set => _HouseAllowance = value; }
+        public decimal MedicalAllowance { get => _MedicalAllowance; set => _MedicalAllowance = value; }
         
     }
 }

@@ -5,9 +5,9 @@ namespace FactoryPattern.Factory
 {
     public class FactoryMethod
     {
-        public BaseEmployeeFactory CreateFactory(Employee emp)
+        public BaseAbstractFactory CreateFactory(Employee emp)
         {
-            BaseEmployeeFactory returnValue = null;
+            BaseAbstractFactory returnValue = null;
             if (emp.EmployeeTypeId == Convert.ToInt32(EmployeeType.Permanent.GetHashCode()))
             {
                 returnValue = new PermanentEmployeeFactory(emp);
@@ -20,8 +20,9 @@ namespace FactoryPattern.Factory
         }
         public void GetEmployeeMethodData(Employee emp)
         {
-            BaseEmployeeFactory a = new FactoryMethod().CreateFactory(emp);
-            a.ApplySalary();            
+            BaseAbstractFactory a = new FactoryMethod().CreateFactory(emp);
+            a.ApplySalary();
+            Console.WriteLine("BONUS : " + emp.Bonus.ToString() + " ;PAY " + emp.Salary.ToString() + " ;House " + emp.HouseAllowance.ToString() + " ;Medical " + emp.MedicalAllowance.ToString());
         }
     }
 }
