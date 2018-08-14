@@ -1,4 +1,4 @@
-﻿namespace FactoryPattern
+﻿namespace FactoryPattern.BusinessLogic
 {
     public enum EmployeeType
     {

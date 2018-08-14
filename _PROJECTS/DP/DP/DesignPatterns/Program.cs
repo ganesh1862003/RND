@@ -62,6 +62,14 @@ namespace DesignPatterns
                     SimpleFactory A = new SimpleFactory();
                     A.GetEmployeeData(Convert.ToInt32(strKeyChilds));
                 }
+                else if (strKeyChild.ToUpper() == "B")
+                {
+                    Console.WriteLine("FACTORY METHOD PATTERN");
+                    Console.WriteLine("SELECT EMPLOYEE TYPE .FOR E.G. (1,2)");
+                    strKeyChilds = Console.ReadLine().ToString();
+                    SimpleFactory A = new SimpleFactory();
+                    A.GetEmployeeData(Convert.ToInt32(strKeyChilds));
+                }
                 else
                 {
                     goto ChildLoop2;

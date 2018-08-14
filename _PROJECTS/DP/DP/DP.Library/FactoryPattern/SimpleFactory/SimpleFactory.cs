@@ -26,5 +26,7 @@ namespace FactoryPattern
             ISimpleFactoryInterFace iSimp = a.GetEmployee(EmployeeTypeId);
             Console.WriteLine("BONUS : " + iSimp.getBonus().ToString() + " ;PAY " + iSimp.getPay().ToString());
         }
+
+        
     }
 }

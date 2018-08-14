@@ -13,6 +13,10 @@ namespace FactoryPattern.BusinessLogic
         {
             return 8;
         }
+        public decimal getHouseAllowance()
+        {
+            return 100;
+        }
     }
     public class SimpleFactoryContractEmp : ISimpleFactoryInterFace
     {
@@ -24,6 +28,10 @@ namespace FactoryPattern.BusinessLogic
         public decimal getPay()
         {
             return 12;
+        }
+        public decimal getMedicalAllowance()
+        {
+            return 200;
         }
     }
 }
