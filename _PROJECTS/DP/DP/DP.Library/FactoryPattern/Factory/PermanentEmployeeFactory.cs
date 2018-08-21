@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using FactoryPattern.InterFaces;
-using FactoryPattern.Models;
+﻿using FactoryPattern.Models;
 using FactoryPattern.BusinessLogic;
 
 namespace FactoryPattern.Factory

@@ -1,6 +1,4 @@
-﻿using FactoryPattern.InterFaces;
-
-namespace FactoryPattern.BusinessLogic
+﻿namespace FactoryPattern.BusinessLogic
 {
     public class SimpleFactoryPermamentEmp : ISimpleFactoryInterFace
     {

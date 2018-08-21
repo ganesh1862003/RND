@@ -1,8 +1,0 @@
-C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DP.Library\FactoryPattern\bin\Debug\netcoreapp2.1\FactoryPattern.deps.json
-C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DP.Library\FactoryPattern\bin\Debug\netcoreapp2.1\FactoryPattern.dll
-C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DP.Library\FactoryPattern\bin\Debug\netcoreapp2.1\FactoryPattern.pdb
-C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DP.Library\FactoryPattern\obj\Debug\netcoreapp2.1\FactoryPattern.csproj.CoreCompileInputs.cache
-C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DP.Library\FactoryPattern\obj\Debug\netcoreapp2.1\FactoryPattern.AssemblyInfoInputs.cache
-C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DP.Library\FactoryPattern\obj\Debug\netcoreapp2.1\FactoryPattern.AssemblyInfo.cs
-C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DP.Library\FactoryPattern\obj\Debug\netcoreapp2.1\FactoryPattern.dll
-C:\_GANESHA\_SVN\RND\_PROJECTS\DP\DP\DP.Library\FactoryPattern\obj\Debug\netcoreapp2.1\FactoryPattern.pdb

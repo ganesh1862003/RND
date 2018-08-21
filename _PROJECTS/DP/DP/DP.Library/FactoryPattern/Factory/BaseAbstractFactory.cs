@@ -1,5 +1,5 @@
 ﻿using FactoryPattern.Models;
-using FactoryPattern.InterFaces;
+
 namespace FactoryPattern.Factory
 {
     public abstract class BaseAbstractFactory

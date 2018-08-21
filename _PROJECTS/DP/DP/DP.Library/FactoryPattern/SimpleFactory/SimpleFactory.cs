@@ -1,5 +1,4 @@
-﻿using FactoryPattern.InterFaces;
-using FactoryPattern.BusinessLogic;
+﻿using FactoryPattern.BusinessLogic;
 using System;
 
 namespace FactoryPattern

@@ -11,6 +11,7 @@ namespace DesignPatterns
         public static string strKeyMain = "";
         public static string strKeyChild = "";
         public static string strKeyChilds = "";
+        public static string strKeyChilds1 = "";
         public static string NewLine => "\r\n";
         static void Main(string[] args)
         {
@@ -73,6 +74,20 @@ namespace DesignPatterns
                     emp.EmployeeTypeId = Convert.ToInt32(strKeyChilds);
                     FactoryMethod a = new FactoryMethod();
                     a.GetEmployeeMethodData(emp);
+
+                }
+                else if (strKeyChild.ToUpper() == "C")
+                {
+                    Console.WriteLine("ABSTRACT FACTORYPATTERN");
+                    Console.WriteLine("SELECT EMPLOYEE TYPE .FOR E.G. (1,2)");
+                    strKeyChilds = Console.ReadLine().ToString();
+                    Console.WriteLine("SELECT EMPLOYEE JOB .FOR E.G. (Manager,Others)");
+                    strKeyChilds1 = Console.ReadLine().ToString();
+                    Employee emp = new Employee();
+                    emp.EmployeeTypeId = Convert.ToInt32(strKeyChilds);
+                    emp.JobDetails = Convert.ToString(strKeyChilds1);
+                    FactoryMethod a = new FactoryMethod();
+                    a.GetEmployeeAbstractFactoryData(emp);
 
                 }
                 else
