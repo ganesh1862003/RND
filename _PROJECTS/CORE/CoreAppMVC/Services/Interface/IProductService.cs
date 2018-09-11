@@ -7,6 +7,6 @@ namespace CoreAppMVC.Services.Interface
 {
     public interface IProductService
     {
-        void Delete(int id);
+        void Delete(int ? id);
     }
 }

@@ -15,7 +15,7 @@ namespace CoreAppMVC.Services.Manager
             Logger = NullLogger<ProductService>.Instance;
         }
 
-        public void Delete(int id)
+        public void Delete(int ? id)
         {
             _productRepository.Delete(id);
             Logger.LogInformation($"Deleted a product with id = {id}");

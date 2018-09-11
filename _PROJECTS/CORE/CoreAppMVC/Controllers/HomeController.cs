@@ -12,13 +12,19 @@ namespace CoreAppMVC.Controllers
     {
         private readonly IProductService _productService;
 
-        public HomeController (IProductService productService)
+        public HomeController(IProductService productService)
         {
             _productService = productService;
         }
-        public IActionResult Index()
+        public IActionResult Index(int? Id)
         {
-            _productService.Delete(1);
+            if (Id != null)
+            {
+                _productService.Delete(Id);
+                ViewData["Message"] = "Deleted " + Id;
+            }
+
+
             return View();
         }
 

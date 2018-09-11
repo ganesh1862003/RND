@@ -2,6 +2,6 @@
 {
     public interface IProductRepository
     {
-        void Delete(int id);
+        void Delete(int ? id);
     }
 }
